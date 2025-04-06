@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-black; /* Set the default background to white */
+  }
+  /* For dark sections */
+  .bg-dark {
+    @apply bg-black text-white;
+  }
+}
